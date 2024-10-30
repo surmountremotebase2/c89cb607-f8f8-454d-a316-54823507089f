@@ -7,7 +7,7 @@ class TradingStrategy(Strategy):
 
    @property
    def assets(self):
-      return ["SPY", "QQQ", "VTI", "VXUS"]
+      return ["AAPL", "MSFT", "NVDA", "AMZN", "META", "GOOGL", "BRK.B", "GOOG", "LLY", "AVGO", "TSLA", "JPM", "UNH", "XOM", "V", "PG", "COST", "MA", "JNJ", "HD", "ABBV", "WMT", "NFLX", "MRK", "KO", "BAC", "ADBE", "ORCL", "CRM", "PEP", "AMD", "CVX", "TMO", "LIN", "ACN", "MCD", "ABT", "CSCO", "IBM", "PM", "GE", "QCOM", "VZ", "NOW", "INTU", "WFC", "DHR", "TXN", "AMGN", "ISRG"]
 
    @property
    def interval(self):
